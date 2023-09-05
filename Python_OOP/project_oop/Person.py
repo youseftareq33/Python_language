@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC,abstractmethod
 
 class Person(ABC):
     
@@ -22,9 +22,11 @@ class Person(ABC):
 
 
     # methods:
+    @abstractmethod
     def eat():
         pass
 
+    @abstractmethod
     def speak():
         pass
 

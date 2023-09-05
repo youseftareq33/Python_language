@@ -2,7 +2,7 @@ class Student:
     # if our class is empty we can use pass statement to avoid getting an error.
 
     #_init_ func: All classes have _init_ function, and it's always executed when the class is being initiated.
-    
+    #                  we can use it multiple time, using *args, using decoratours.
     #self: is a reference to the current instance of the class, and is used to access variables that belongs to the class.
     #      we can change it's name to anything we want in case we put it the first parameter on _init func.
     def __init__(self,name,city):
