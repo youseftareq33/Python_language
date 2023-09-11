@@ -20,7 +20,7 @@ class Person:
         self.age=age
 
     # cls: refers to the class itself 
-    # @classmethod: it's decorator make method a class method and have access to the class and its attributes.
+    # @classmethod: it's decorator make method to class method and have access to the class and its attributes.
     # decorator: function that extends or modifies the behavior of another function or method by wrapping it.
     @classmethod
     def from_parameter1(cls, name):
