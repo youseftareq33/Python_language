@@ -1,5 +1,5 @@
 import mysql.connector
-import Student
+from Student import Student
 
 class connectionDB:
     def __init__(self):
@@ -26,6 +26,10 @@ class connectionDB:
             student = Student(id, name)
             students.append(student)
         return students
+
+
+
+
 
     def insert_data(self, student):
         query = "INSERT INTO Student (id, name) VALUES (%s, %s)"
