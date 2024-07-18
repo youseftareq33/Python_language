@@ -1,1 +1,1 @@
-# Pyhthon Languages
+# Pyhthon Language
